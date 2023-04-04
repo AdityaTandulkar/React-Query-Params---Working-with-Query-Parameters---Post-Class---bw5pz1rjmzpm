@@ -5,7 +5,7 @@ const App = () => {
   //Write your code here
   const query = new URLSearchParams(window.location.search);
   return(
-    <div>
+    <div class="details">
       Employee {query.get("id")} named {query.get("name")} works as {query.get("designation")}
     </div>
   )
